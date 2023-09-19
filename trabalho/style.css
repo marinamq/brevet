@@ -75,6 +75,13 @@
     list-style-type: none;
 }
 
+.subtitle {
+    margin-bottom: 50px;
+    margin-left: 27%;
+    color:#13076f;
+    font-weight: bold;
+}
+
 /* menu lateral atividade */
 
 #menu-lateral nav h2 {
@@ -123,7 +130,7 @@
     text-align: center;
     font-weight: bold;
     padding-bottom: 20px;
-    color: rgb(7, 7, 52);
+    color: #13076f;
 }
 
 /*services a bafl*/
@@ -137,7 +144,7 @@
     text-align: center;
     font-weight: bold;
     padding-bottom: 20px;
-    color: rgb(7, 7, 52);
+    color: #13076f;
 }
 
 /*messages*/
@@ -161,7 +168,6 @@
     margin-bottom: 20px;
 }
 
-
 .send {
     background-color: #0f4098;
     text-align: center;
@@ -183,7 +189,7 @@
     text-align: center;
     font-weight: bold;
     padding-bottom: 30px;
-    color: rgb(7, 7, 52);
+    color: #13076f;
 }
 
 .grid-container {
