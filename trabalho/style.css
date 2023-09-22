@@ -83,6 +83,7 @@
 }
 
 .subtitle {
+    display: flex;
     margin-bottom: 50px;
     margin-left: 27%;
     color:#13076f;
