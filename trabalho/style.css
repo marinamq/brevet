@@ -9,12 +9,9 @@
     gap: 0px 20px;
 }
 
-/* .container {
-    display: flex;
-} */
 
 @media (max-width: 768px) {
-    .conteudo-grid .container .subtitle {
+    .conteudo-grid {
         width: 100%;
         flex-direction: column;
     }
