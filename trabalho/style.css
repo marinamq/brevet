@@ -11,7 +11,7 @@
 }
 
 
-@media screen and (min-width: 400) and (max-width: 768px) {
+@media (max-width: 768px) {
     .conteudo-grid {
         width: 100%;
         flex-direction: column;
@@ -209,12 +209,15 @@
     padding-bottom: 100px;
 }
 
-@media screen and (min-width:400px) and (max-width:900px) {
+@media (max-width:768px) {
     .grid-container {
-        display: grid;
+        /* display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        gap: 10px 0px;
+        gap: 10px 10px; */
+        width: 100%;
+        flex-direction: column;
+
     }
 }
 
