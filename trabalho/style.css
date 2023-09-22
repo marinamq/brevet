@@ -11,7 +11,7 @@
 }
 
 
-@media screen and (min-width: 360) and (max-width: 768px) {
+@media screen and (min-width: 400) and (max-width: 768px) {
     .conteudo-grid {
         width: 100%;
         flex-direction: column;
