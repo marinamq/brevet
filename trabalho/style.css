@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 768px) {
-    .conteudo-grid .subtitle {
+    .conteudo-grid .container {
         width: 100%;
         flex-direction: column;
     }
@@ -83,11 +83,11 @@
 }
 
 .subtitle {
-    display: flex;
     margin-bottom: 50px;
-    margin-left: 27%;
+    margin-left: 15%;
     color:#13076f;
     font-weight: bold;
+    text-align: center;
 }
 
 /* menu lateral atividade */
