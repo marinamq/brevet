@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 768px) {
-    .conteudo-grid {
+    .conteudo-grid .subtitle {
         width: 100%;
         flex-direction: column;
     }
