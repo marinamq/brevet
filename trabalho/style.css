@@ -9,8 +9,12 @@
     gap: 0px 20px;
 }
 
+/* .container {
+    display: flex;
+} */
+
 @media (max-width: 768px) {
-    .conteudo-grid .container {
+    .conteudo-grid .container .subtitle {
         width: 100%;
         flex-direction: column;
     }
@@ -83,6 +87,7 @@
 }
 
 .subtitle {
+    display: flex;
     margin-bottom: 50px;
     margin-left: 15%;
     color:#13076f;
