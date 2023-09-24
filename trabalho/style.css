@@ -18,6 +18,13 @@
     }
 }
 
+@media (max-width: 768px) {
+    .developed-activities {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
 @media screen and (min-width:400px) and (max-width:900px) {
     .conteiner-grid {
         display: grid;
