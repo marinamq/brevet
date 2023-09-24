@@ -18,10 +18,28 @@
     }
 }
 
-@media (max-width: 768px) {
-    .developed-activities {
-        width: 100%;
-        flex-direction: column;
+.content-layout-container {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.content-layout-container .page-content {
+    margin-top: 100px;
+}
+
+.content-layout-container .photos {
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .content-layout-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: fit-content 1fr;
     }
 }
 
@@ -223,7 +241,6 @@
         gap: 10px 10px;
         width: 100%;
         flex-direction: column;
-
     }
 }
 
@@ -320,8 +337,6 @@ input[type="submit"] {
 /* rodapé */
 
 footer {
-    /*verificar se precisa disso ou se dá pra colocar na classe footer-content*/
-
     position: absolute;
     text-align: center;
     width: 100%;
