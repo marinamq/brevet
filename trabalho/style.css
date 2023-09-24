@@ -211,10 +211,9 @@
 
 @media (max-width:768px) {
     .grid-container {
-        /* display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        gap: 10px 10px; */
+        gap: 10px 10px;
         width: 100%;
         flex-direction: column;
 
