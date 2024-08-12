@@ -1,175 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- Meta tags Obrigatórias -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
 
-<head>
-    <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous"
+        />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+            integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+            crossorigin="anonymous"
+        />
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+        <link rel="stylesheet" type="text/css" href="./trabalho/style.css" />
 
-    <link rel="stylesheet" type="text/css" href="./trabalho/style.css" />
+        <title>BREVET - Base de Recepção de Veteranos</title>
+    </head>
 
-    <title>BREVET - Base de Recepção de Veteranos</title>
-</head>
-
-<body style="padding-bottom: 80px">
-    <!-- Parte do cabeçalho que fica no fundo azul -->
-    <div class="header">
-        <div class="conteiner-grid">
-            <img src="imagens/bafl.png" alt="Base Aérea de Florianópolis" class="dom" />
-            <div class="page-title">
-                <div class="fab">Força Aérea Brasileira</div>
-                <div class="bafl">Base Aérea de Florianópolis</div>
-                <div class="fifth-command">QUINTO COMANDO AÉREO REGIONAL</div>
+    <body style="padding-bottom: 80px">
+        <!-- Parte do cabeçalho que fica no fundo azul -->
+        <div class="header">
+            <div class="conteiner-grid">
+                <img
+                    src="imagens/bafl.png"
+                    alt="Base Aérea de Florianópolis"
+                    class="dom"
+                />
+                <div class="page-title">
+                    <div class="fab">Força Aérea Brasileira</div>
+                    <div class="bafl">Base Aérea de Florianópolis</div>
+                    <div class="fifth-command">
+                        QUINTO COMANDO AÉREO REGIONAL
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!--Parte do menu com link de outras forças-->
-    <div class="services">
-        <nav class="menu-services pull-right">
-            <ul class="list">
-                <li>
-                    <a href="https://www.defesa.gov.br" target="_blank">Ministério da Defesa</a>
-                    <span style="margin-left: 3px; margin-right: 3px">|</span>
-                    <a href="https://www.mar.mil.br" target="_blank">Marinha</a>
-                    <span style="margin-left: 3px; margin-right: 3px">|</span>
-                    <a href="https://www.eb.mil.br" target="_blank">Exército</a>
-                    <span style="margin-left: 3px; margin-right: 3px">|</span>
-                    <a href="https://www.fab.mil.br/ouvidoria" target="_blank">Ouvidoria</a>
-                    <span style="margin-left: 3px; margin-right: 30px"></span>
-                </li>
-            </ul>
-        </nav>
-    </div>
+        <!--Parte do menu com link de outras forças-->
+        <div class="services">
+            <nav class="menu-services pull-right">
+                <ul class="list">
+                    <li>
+                        <a href="https://www.defesa.gov.br" target="_blank"
+                            >Ministério da Defesa</a
+                        >
+                        <span style="margin-left: 3px; margin-right: 3px"
+                            >|</span
+                        >
+                        <a href="https://www.mar.mil.br" target="_blank"
+                            >Marinha</a
+                        >
+                        <span style="margin-left: 3px; margin-right: 3px"
+                            >|</span
+                        >
+                        <a href="https://www.eb.mil.br" target="_blank"
+                            >Exército</a
+                        >
+                        <span style="margin-left: 3px; margin-right: 3px"
+                            >|</span
+                        >
+                        <a
+                            href="https://www.fab.mil.br/ouvidoria"
+                            target="_blank"
+                            >Ouvidoria</a
+                        >
+                        <span
+                            style="margin-left: 3px; margin-right: 30px"
+                        ></span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
 
+    <!--Menu lateral-->
     <div class="content-layout-container">
-        <!--Menu lateral-->
         <div id="menu-lateral" class="navegacao">
             <section id="navegacao-section">
                 <nav class="menu">
                     <h2><a href="index.html">INSTITUCIONAL</a></h2>
                     <ul class="list-menu-lateral">
-                        <a href="historiadafab.html">História da FAB</a>
-                        <br />
-                        <a href="sobreabafl.html">História da BAFL</a>
-                        <br />
-                        <a href="historiabrevet.html">História BREVET</a>
-                        <br />
-                        <a href="atividadesdesenvolvidas.html">Atividades Desenvolvidas</a>
-                        <br />
-                        <a href="jogosdetabuleiro.html" class="sub-menu">Jogos de Tabuleiro</a>
-                        <br />
-                        <a href="auladepintura.html" class="sub-menu">Aula de Pintura</a>
-                        <br />
-                        <a href="auladedanca.html" class="sub-menu">Aula de Dança</a>
-                        <br />
-                        <a href="artesanato.html" class="sub-menu">Artesanato</a>
-                        <br />
+                        <a href="historiadafab.html">História da FAB</a><br>
+                        <a href="sobreabafl.html">História da BAFL</a><br>
+                        <a href="historiabrevet.html">História BREVET</a><br>
+                        <a href="atividadesdesenvolvidas.html">Atividades Desenvolvidas</a><br>
+                        <a href="jogosdetabuleiro.html" class="sub-menu">Jogos de Tabuleiro</a><br>
+                        <a href="auladepintura.html" class="sub-menu">Aula de Pintura</a><br>
+                        <a href="auladedanca.html" class="sub-menu">Aula de Dança</a><br>
+                        <a href="artesanato.html" class="sub-menu">Artesanato</a><br>
+                        <a href="atividadesdesenvolvidasemcasa.html">Atividades Desenvolvidas em Casa</a><br>
+                        <a href="leitura.html" class="sub-menu">Leitura</a><br>
+                        <a href="colorirdesenhos.html" class="sub-menu">Colorir Desenhos</a><br>
+                        <a href="jardinagem.html" class="sub-menu">Jardinagem</a><br>
+                        <a href="ouvirmusicadanca.html" class="sub-menu">Ouvir Música e Dançar</a><br>
                     </ul>
                 </nav>
             </section>
         </div>
 
-        <div>
+            <div>
+                <!---Atividades Desenvolvidas -->
+                <div class="conteudo-grid page-content">
+                    <div class="class-activities">
+                        <h1 class="description-activities">
+                            Leitura
+                        </h1>
+                        <p>
+                            Outra forma de estimular a mente e ainda cuidar da
+                            parte afetiva dos idosos é promover sessões de
+                            leitura ou incentivá-los a lerem um livro específico
+                            (no caso de familiares nessa faixa etária). Por
+                            exemplo, se estamos falando dos cuidados com pais ou
+                            avós, pode ser interessante que vocês combinem
+                            momentos durante a semana para pegarem um mesmo
+                            livro e lerem juntos. Ao final da leitura, conversem
+                            sobre o enredo, quais foram os pontos e as citações
+                            de que mais gostaram, quais são as críticas, entre
+                            outros elementos. Além de ser uma forma de estarem
+                            juntos e criarem memórias afetivas importantes, é
+                            interessante para manter a mente ativa com uma
+                            atividade prazerosa. Para isso, escolha livros que
+                            sejam de interesse da pessoa, a fim de que ela possa
+                            se envolver na atividade.
+                        </p>
+                    </div>
+                </div>
 
-            <!---Atividades Desenvolvidas -->
-            <div class="conteudo-grid page-content">
-                <div class="class-activities">
-                    <h1 class="description-activities">Jogos de Tabuleiro</h1>
-                    <h3>Dominó</h3>
-                    <p>
-                        O jogo de dominó é frequentemente jogado em dupla ou em grupos
-                        maiores. O objetivo é terminar o jogo com o menor número de peças na
-                        mão. Por trás do divertimento ao unir peças de valores iguais, traçar
-                        uma estratégia ou até mesmo retirar uma peça do monte, as habilidades
-                        cognitivas fazem um esforço para responder às regras do jogo, mantendo
-                        a mente ativa e desafiada a todo momento. Recomenda-se que este jogo
-                        promova uma interação social, com amigos, família ou outros idosos.
-                        Jogar dominó é uma atividade social, que pode ajudar a melhorar a
-                        qualidade de vida da pessoa idosa, reduzir o seu isolamento e ainda
-                        promover uma melhora na comunicação e humor.
-                    </p>
-                    <h3>Xadrez</h3>
-                    <p>
-                        O jogo de xadrez é um clássico e ajuda a manter o cérebro ativo e
-                        estimulado. Essa é uma boa opção eficaz para melhorar a memória e
-                        estimular os idosos. Este jogo exige o uso da memória de curto prazo
-                        do idoso, pois ele sempre precisa lembrar as posições das peças, do
-                        seu adversário, as posições de onde já jogou e as jogadas futuras que
-                        pode fazer. Para os idosos, o xadrez pode ser o jogo que mais exige de
-                        sua concentração e memória. É importante que essa atividade seja
-                        realizada no ambiente e local adequado, dando total espaço para que,
-                        no início, possam se concentrar e ganhar esse estímulo no cérebro.
-                    </p>
-                    <h3>Damas</h3>
-                    <p>
-                        Jogar damas pode retardar e prevenir o surgimento de doenças
-                        neurodegenerativas, como as citadas no início deste blog. Essa
-                        atividade tem um papel importante na estimulação cerebral e na
-                        formação de conexões neuronais. Uma peculiaridade deste jogo é o
-                        desenvolvimento de estratégias, que é estimulado assim como no xadrez.
-                        No Brasil, é seguro dizer que há um número significativo de pessoas
-                        que sabem jogar damas, já que o jogo é frequentemente ensinado nas
-                        escolas como atividade extracurricular e muito praticado,
-                        principalmente, pelos idosos, mestres das damas. Assim como o xadrez,
-                        jogar damas exige que os jogadores usem a memória, a concentração, o
-                        raciocínio lógico e a tomada de decisões. Habilidades de planejamento,
-                        antecipação de movimentos e tomada de decisões podem ser úteis em
-                        diversas áreas da vida e no estímulo constante da memória.
-                    </p>
+                <div class="volunteering">
+                    <h3>Seja um voluntário</h3>
+                    <form action="/action_page.php" method="post">
+                        <fieldset>
+                            <h5>Selecione as atividades desejadas:</h5>
+                            <input
+                                type="checkbox"
+                                id="tabuleiro"
+                                name="tabuleiro"
+                                value="tabuleiro"
+                            />
+                            <label for="tabuleiro" class="label-checkbox">
+                                Jogos de Tabuleiro</label
+                            >
+                            <input
+                                type="checkbox"
+                                id="danca"
+                                name="danca"
+                                value="danca"
+                            />
+                            <label for="danca" class="label-checkbox">
+                                Aula de Dança</label
+                            ><br />
+                            <input
+                                type="checkbox"
+                                id="pintura"
+                                name="pintura"
+                                value="pintura"
+                            />
+                            <label for="pintura" class="label-checkbox">
+                                Aula de pintura</label
+                            >
+                            <input
+                                type="checkbox"
+                                id="artesanato"
+                                name="artesanato"
+                                value="artesanato"
+                            />
+                            <label for="artesanato" class="label-checkbox">
+                                Artesanato</label
+                            ><br />
+                        </fieldset>
+                        <fieldset>
+                            <label for="nomecompleto" class="label-form"
+                                >Nome Completo:
+                                <input
+                                    type="text"
+                                    id="nomecompleto"
+                                    name="nomecompleto"
+                                    class="input-form"
+                                    placeholder="João da Silva"
+                            /></label>
+                            <label for="telefone" class="label-form"
+                                >Telefone:
+                                <input
+                                    type="text"
+                                    id="telefone"
+                                    class="input-form"
+                                    name="telefone"
+                                    placeholder="(48) 9999-9999"
+                            /></label>
+                            <label for="email" class="label-form"
+                                >Email:
+                                <input
+                                    type="email"
+                                    id="email"
+                                    class="input-form"
+                                    name="email"
+                                    placeholder="joao@email.com" /><br /><br
+                            /></label>
+                            <input type="submit" value="ENVIAR" />
+                        </fieldset>
+                    </form>
                 </div>
             </div>
-
-            <div class="volunteering">
-                <h3>Seja um voluntário</h3>
-                <form action="/action_page.php" method="post">
-                    <fieldset>
-                        <h5>Selecione as atividades desejadas:</h5>
-                        <input type="checkbox" id="tabuleiro" name="tabuleiro" value="tabuleiro" />
-                        <label for="tabuleiro" class="label-checkbox">
-                            Jogos de Tabuleiro</label>
-                        <input type="checkbox" id="danca" name="danca" value="danca" />
-                        <label for="danca" class="label-checkbox"> Aula de Dança</label><br />
-                        <input type="checkbox" id="pintura" name="pintura" value="pintura" />
-                        <label for="pintura" class="label-checkbox"> Aula de pintura</label>
-                        <input type="checkbox" id="artesanato" name="artesanato" value="artesanato" />
-                        <label for="artesanato" class="label-checkbox"> Artesanato</label><br />
-                    </fieldset>
-                    <fieldset>
-                        <label for="nomecompleto" class="label-form">Nome Completo:
-                            <input type="text" id="nomecompleto" name="nomecompleto" class="input-form"
-                                placeholder="João da Silva" /></label>
-                        <label for="telefone" class="label-form">Telefone:
-                            <input type="text" id="telefone" class="input-form" name="telefone"
-                                placeholder="(48) 9999-9999" /></label>
-                        <label for="email" class="label-form">Email:
-                            <input type="email" id="email" class="input-form" name="email"
-                                placeholder="joao@email.com" /><br /><br /></label>
-                        <input type="submit" value="ENVIAR" />
-                    </fieldset>
-                </form>
-            </div>
         </div>
-    </div>
 
-    <!-- Rodapé -->
-    <footer class="footer-content">
-        <div class="name-footer-content">
-            <div class="adress">
-                BAFL - Base Aérea de Florianópolis - Avenida Santos Dumont S/Nº Tapera
-                - CEP: 88.049-000 - Florianópolis-SC - Tel: (48) 3229-5035
+        <!-- Rodapé -->
+        <footer class="footer-content">
+            <div class="name-footer-content">
+                <div class="adress">
+                    BAFL - Base Aérea de Florianópolis - Avenida Santos Dumont
+                    S/Nº Tapera - CEP: 88.049-000 - Florianópolis-SC - Tel: (48)
+                    3229-5035
+                </div>
+                <div class="brevet">BREVET - Base de Recepção de Veteranos</div>
             </div>
-            <div class="brevet">BREVET - Base de Recepção de Veteranos</div>
-        </div>
-    </footer>
-</body>
-
+        </footer>
+    </body>
 </html>
