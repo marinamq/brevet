@@ -244,13 +244,13 @@
     }
 }
 
-.board-games {
+.images-size {
     width: 250px;
     height: 250px;
     text-align: center;
 }
 
-.artesanato {
+/* .artesanato {
     width: 250px;
     height: 250px;
     text-align: center;
@@ -265,8 +265,8 @@
 .dance-class {
     width: 250px;
     height: 250px;
-    text-align: center;
-}
+    text-align: center; */
+/* } */
 
 .conteudo-grid {
     display: flex;
